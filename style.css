@@ -35,7 +35,14 @@ body {
 }
 
 .site-name {
+  color: var(--text);
   font-size: 18px;
+  text-decoration: none;
+}
+
+.site-name:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 nav {
@@ -143,6 +150,14 @@ p {
   text-transform: uppercase;
   margin-bottom: 8px;
 }
+
+.abstract {
+  max-width: 700px;
+  margin-bottom: 24px;
+  line-height: 1.8;
+  text-align: left;
+}
+
 footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
