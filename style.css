@@ -37,12 +37,6 @@ body {
 .site-name {
   color: var(--text);
   font-size: 18px;
-  text-decoration: none;
-}
-
-.site-name:hover {
-  color: var(--accent);
-  text-decoration: underline;
 }
 
 nav {
