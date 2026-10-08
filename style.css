@@ -168,6 +168,13 @@ footer {
   padding: 24px 0;
 }
 
+@media (min-width: 601px) {
+  .intro {
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 600px) {
   .eyebrow {
     font-size: 14px;
