@@ -127,6 +127,7 @@ p {
 }
 
 .paper {
+  width: 100%;
   max-width: 720px;
   border-top: 1px solid var(--line);
   padding-top: 22px;
@@ -147,11 +148,13 @@ p {
 }
 
 .abstract {
-  max-width: 720px;
-  margin-bottom: 24px;
+  width: 100%;
+  max-width: 65ch;
+  margin: 0 0 24px 0;
+  color: var(--text);
+  font-size: 16px;
   line-height: 1.8;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
   white-space: normal;
   overflow-wrap: break-word;
 }
