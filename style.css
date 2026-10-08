@@ -128,7 +128,7 @@ p {
 
 .paper {
   width: 100%;
-  max-width: 720px;
+  max-width: none;
   border-top: 1px solid var(--line);
   padding-top: 22px;
 }
@@ -149,14 +149,14 @@ p {
 
 .abstract {
   width: 100%;
-  max-width: 65ch;
+  max-width: none;
   margin: 0 0 24px 0;
   color: var(--text);
   font-size: 16px;
   line-height: 1.8;
-  text-align: left;
-  white-space: normal;
-  overflow-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 footer {
