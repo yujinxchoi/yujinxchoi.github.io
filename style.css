@@ -171,7 +171,8 @@ footer {
 @media (max-width: 600px) {
   .eyebrow {
     font-size: 14px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
+    white-space: nowrap;
   }
 
   .site-header .container {
