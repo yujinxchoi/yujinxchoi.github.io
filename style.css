@@ -107,7 +107,42 @@ p {
   background: var(--accent);
   color: white;
 }
+.cv-link {
+  margin-top: 28px;
+}
 
+.cv-link a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.cv-link a:hover {
+  color: var(--text);
+}
+
+.work-in-progress {
+  margin-top: 48px;
+}
+
+.paper {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+
+.paper h3 {
+  max-width: 700px;
+  margin-bottom: 18px;
+}
+
+.abstract-label {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
 footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
