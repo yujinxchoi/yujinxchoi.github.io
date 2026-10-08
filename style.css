@@ -133,6 +133,7 @@ p {
 }
 
 .paper {
+  max-width: 720px;
   border-top: 1px solid var(--line);
   padding-top: 22px;
 }
@@ -152,10 +153,13 @@ p {
 }
 
 .abstract {
-  max-width: 700px;
+  max-width: 720px;
   margin-bottom: 24px;
   line-height: 1.8;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 footer {
